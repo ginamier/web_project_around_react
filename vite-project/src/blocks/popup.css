@@ -8,7 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  display: none;
+  /*display: none;*/
 }
 
 .popup__type_edit_avatar .popup__container {
@@ -25,7 +25,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  display: none;
+  /*display: none;*/
 }
 
 .popup__container {
@@ -57,7 +57,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  display: none;
+  /*display: none;*/
   z-index: 1000;
 }
 
