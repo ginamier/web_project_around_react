@@ -8,7 +8,7 @@ import editButton from "../../images/edit.png";
 import addButton from "../../images/plus.png";
 import Card from "./Components/Cards.jsx";
 import api from "../../utils/Api.js";
-import { CurrentUserContext } from "../../contexts/CurrentUserContext";
+import { CurrentUserContext } from "../../contexts/CurrentUserContext.js/index.js";
 
 function Main({ onOpenPopup, onClosePopup, popup, cards, onCardLike, onCardDelete }) {
   const { currentUser } = useContext(CurrentUserContext);

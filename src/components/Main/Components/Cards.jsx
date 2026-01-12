@@ -1,6 +1,6 @@
 import ImagePopup from "../Popup/ImagePopup";
 import { useContext } from "react";
-import { CurrentUserContext } from "../../../contexts/CurrentUserContext";
+import { CurrentUserContext } from "../../../contexts/CurrentUserContext.js";
 
 export default function Card(props) {
   const { currentUser } = useContext(CurrentUserContext);
