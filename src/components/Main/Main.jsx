@@ -3,12 +3,11 @@ import Popup from "./Popup/Popup.jsx";
 import EditAvatar from "./Form/EditAvatar/EditAvatar";
 import EditProfile from "./Form/EditProfile/EditProfile";
 import NewCard from "./Form/NewCard/NewCard.jsx";
-import jacques from "../../images/jacques.jpg";
 import editButton from "../../images/edit.png";
 import addButton from "../../images/plus.png";
 import Card from "./Components/Cards.jsx";
 import api from "../../utils/Api.js";
-import { CurrentUserContext } from "../../contexts/CurrentUserContext.js/index.js";
+import { CurrentUserContext } from "../../contexts/CurrentUserContext.js";
 
 function Main({ onOpenPopup, onClosePopup, popup, cards, onCardLike, onCardDelete }) {
   const { currentUser } = useContext(CurrentUserContext);
